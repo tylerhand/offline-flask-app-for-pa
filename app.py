@@ -3,7 +3,7 @@ from flask import Flask, render_template, abort
 app = Flask(__name__)
 
 purpose='coming-soon'
-email='hand7029@vandals.uidaho.edu'
+email='email@example.com'
 
 @app.errorhandler(503)
 def page_not_found(e):
